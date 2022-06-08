@@ -27,13 +27,13 @@ class Greet:
         elif (time_hour > 12 or time_hour <= 5):
             # Greet
 
-            engine.say('Good Morning ! How may I help you?')
+            engine.say('Good Afternoon ! How may I help you?')
             engine.runAndWait()
             engine.stop()
         else:
             # Greet
 
-            engine.say('Good Morning ! How may I help you?')
+            engine.say('Good Evening ! How may I help you?')
             engine.runAndWait()
             engine.stop()
 
